@@ -141,3 +141,5 @@ ThinkPHP® 商标和著作权所有者为上海顶想信息科技有限公司。
 
 更多细节参阅 [LICENSE.txt](LICENSE.txt)
 # thinkphp5
+
+public中的所有静态资源请根据文件中的路径去简历对应的文件夹，才能保证静态资源的拉取成功
