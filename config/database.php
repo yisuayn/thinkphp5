@@ -15,11 +15,11 @@ return [
     // 服务器地址
     'hostname'        => 'localhost',
     // 数据库名
-    'database'        => 'chengyue',
+    'database'        => '你的数据库名',
     // 用户名
-    'username'        => 'sa',
+    'username'        => 'username',
     // 密码
-    'password'        => 'qwer12345',
+    'password'        => 'xxxxxxx',
     // 端口
     'hostport'        => '1433',
     // 连接dsn
