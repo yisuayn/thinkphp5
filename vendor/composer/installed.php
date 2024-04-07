@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'topthink/think',
+        'pretty_version' => 'v5.0.24',
+        'version' => '5.0.24.0',
+        'reference' => null,
+        'type' => 'project',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'topthink/framework' => array(
+            'pretty_version' => 'v5.0.25',
+            'version' => '5.0.25.0',
+            'reference' => '643c58ed1bd22a2823ce5e95b3b68a5075f9087c',
+            'type' => 'think-framework',
+            'install_path' => __DIR__ . '/../../thinkphp',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'topthink/think' => array(
+            'pretty_version' => 'v5.0.24',
+            'version' => '5.0.24.0',
+            'reference' => null,
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'topthink/think-installer' => array(
+            'pretty_version' => 'v1.0.14',
+            'version' => '1.0.14.0',
+            'reference' => 'eae1740ac264a55c06134b6685dfb9f837d004d1',
+            'type' => 'composer-plugin',
+            'install_path' => __DIR__ . '/../topthink/think-installer',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

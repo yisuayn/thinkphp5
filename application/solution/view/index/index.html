@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 引入 layui.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/layui/2.9.8/css/layui.css"
+        integrity="sha512-rS4sRT9gLRT9wNIcmJPoU7+DI1vteqW3Bm51AlhupZ6JUxMYLhk4dKeL7y2rPBsi3JKth+Oz/BNvNjQAnpWdiw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/layui/2.9.8/css/layui.min.css"
+        integrity="sha512-iXwIoZrWFn0FwCfnWPe8khdppLH1+hwE7bZYkmjAJaF4Lz/BhdKbd2lgQONvSkCJiezdhLsCgFM2znkDN1uyJw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <!-- 引入 layui.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/layui/2.9.8/layui.min.js"
+        integrity="sha512-suQgjUDCn1QNcz7IPRlWQb6IcjctO0WK7SH5QmGn7otk0K+2veKOITyfsd2URWaSsWsLBdXU87MX2MHDqkxVCQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/layui/2.9.8/layui.js"
+        integrity="sha512-wr2CJEbfG2lCok8dbfh12ZK76eVe0/4XRacTqUi+G1b77x+SpbVyMGn6nf0mWyvEuOAp2TfpMuq6U8fob09xgA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <button type="button" class="layui-btn">一个标准的按钮</button>
+    <ul>
+        {volist name="result" id="user"}
+        <li>
+            <button type="button" class="layui-btn">{$user.id}</button>
+            <a href="http:/" class="layui-btn">{$user.username}</a>
+        </li>
+        {/volist}
+    </ul>
+</body>
+
+</html>
