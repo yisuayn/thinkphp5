@@ -60,6 +60,7 @@ www  WEB部署目录（或者子目录）
 │  ├─config.php         公共配置文件
 │  ├─route.php          路由配置文件
 |  └─database.php       数据库配置文件
+|
 ├─public                WEB目录（对外访问目录）
 │  ├─index.php          入口文件
 │  ├─router.php         快速测试文件
@@ -92,6 +93,7 @@ www  WEB部署目录（或者子目录）
 > router.php用于php自带webserver支持，可用于快速测试
 > 切换到public目录后，启动命令：php -S localhost:8888  router.php
 > 上面的目录结构和名称是可以改变的，这取决于你的入口文件和配置参数。
+> 配置单独独立成一个文件，方便后续配置，主要配置路由，数据库连接和相关的公共配置
 
 ## 命名规范
 
