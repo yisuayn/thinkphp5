@@ -1,0 +1,31 @@
+/* 自定义滚动条整体样式 */
+::-webkit-scrollbar {
+    width: 4px;
+    /* 水平滚动条的高度、垂直滚动条的宽度 */
+    background-color: #f9f9f9;
+}
+
+/* 自定义滚动条轨道样式 */
+::-webkit-scrollbar-track {
+    background: #e1e1e1;
+    /* 可以是透明的 */
+    border-radius: 10px;
+}
+
+/* 自定义滚动条滑块样式 */
+::-webkit-scrollbar-thumb {
+    background-color: #c1c1c1;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    /* 可选的，为滑块添加边框 */
+}
+
+/* 滚动条在鼠标悬停时的样式 */
+::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+
+a {
+    text-decoration: none;
+}

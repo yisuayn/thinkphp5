@@ -1,0 +1,22 @@
+.headermenu{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 999;
+    height: 75px;
+    width: 100%;
+    align-items: flex-end;
+    background-color: rgb(61, 61, 61);
+}
+.Header-Function{
+    
+}
+.Header-Function ul{
+    display: flex;
+    gap: 1.5rem;
+    margin-right: 10rem;
+}
+.Header-Function ul li a span{
+    color: aliceblue;
+    font-size: 25px;
+}
